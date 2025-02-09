@@ -23,7 +23,7 @@ public class Account {
     public Account() {
     }
 
-    public Account(String accountName, String type, User user) {
+    public Account(User user, String accountName, String type) {
         this.accountName = accountName;
         this.type = type;
         this.user = user;
